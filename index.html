@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNTREF EdTech - Inglés Técnico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        .class-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .class-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .class-card:hover {
+            transform: translateY(-5px);
+            border-color: #004b8d;
+            box-shadow: 0 8px 25px rgba(0, 75, 141, 0.15);
+        }
+
+        .class-card h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #004b8d;
+        }
+
+        .class-card p {
+            margin: 0;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body class="untref-edtech-app">
+    <header class="app-header">
+        <h1 class="header-title">INGLÉS TÉCNICO - Ingeniería en Sonido</h1>
+        <p class="header-subtitle">Plataforma de Aprendizaje de Vocabulario Técnico</p>
+    </header>
+
+    <main class="app-content">
+        <div class="innovar-disclaimer">
+            <p>Selecciona una de las clases para acceder a las actividades interactivas y laboratorios de inteligencia artificial de vocabulario técnico de Innovar UNTREF.</p>
+        </div>
+
+        <div class="class-grid">
+            <a href="clase 1/clase1.html" class="class-card">
+                <h3>Clase 1</h3>
+                <p>Ingeniería en Sonido</p>
+            </a>
+            <a href="clase 2/clase2.html" class="class-card">
+                <h3>Clase 2</h3>
+                <p>Ingeniería en Sonido</p>
+            </a>
+            <a href="clase 4/clase4.html" class="class-card">
+                <h3>Clase 4</h3>
+                <p>Ingeniería en Sonido</p>
+            </a>
+            <a href="clase 6/clase6.html" class="class-card">
+                <h3>Clase 6</h3>
+                <p>Ingeniería en Sonido</p>
+            </a>
+            <a href="clase 8/clase8.html" class="class-card">
+                <h3>Clase 8</h3>
+                <p>Ingeniería en Sonido</p>
+            </a>
+            <a href="clase 10/clase10.html" class="class-card">
+                <h3>Clase 10</h3>
+                <p>Ingeniería en Sonido</p>
+            </a>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="footer-logo-container">
+            <img src="logo-innovar.png" alt="Innovar UNTREF" class="footer-logo innovar-logo">
+            <img src="logo-catedra.png" alt="Cátedra de Inglés UNTREF" class="footer-logo main-logo">
+            <div class="logo-with-text">
+                <img src="logo-investigacion-untref.png" alt="Equipo de Investigación" class="footer-logo research-logo">
+            </div>
+            <img src="logo-trememote.png" alt="Trememote" class="footer-logo">
+        </div>
+        <p>© 2026 Innovar UNTREF - Ingeniería en Sonido</p>
+
+    </footer>
+</body>
+
+</html>
+
